@@ -41,8 +41,9 @@ h5 {
     background-image: url(../images/nasa-man.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 450px;
-    padding: 50px 0 0 0;
+    height: 400px;
+    padding: 50px 20px;
+    padding-bottom: 0;
     line-height: 100px;
     margin-bottom: 0;
     z-index: 99;
@@ -77,11 +78,12 @@ h5 {
 }
 
 .hero-section {
-    margin: 0px 0;
+    margin: 60px 0;
 }
 
 .cards {
   width: 100%;
+  margin: 0;
 }
 
 .cards .owner {
@@ -89,7 +91,7 @@ h5 {
     flex-wrap: wrap;
     align-items: space-between;
     justify-content: center;
-    margin: 0 auto;
+    margin: -45px auto;
     width: 100%;
     border-radius: 10px;
     padding: 50px 0 50px 0;
@@ -122,9 +124,9 @@ h5 {
   flex-wrap: wrap;
   align-items: space-between;
   justify-content: center;
-  margin: 50px auto;
+  margin: 20px auto;
   max-width: 1150px;
-  padding: 20px;
+  padding: 20px 30px;
   align-items: center;
   justify-content: center;
 }
@@ -161,7 +163,6 @@ h5 {
 }
 
 .informations-section {
-/*    background-color: gold;*/
   margin: 60px 0;
 }
 
